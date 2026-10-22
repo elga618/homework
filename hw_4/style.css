@@ -1,0 +1,83 @@
+body,
+.form {
+	font-family:
+		ink free,
+		sans-serif;
+	background-color: #000;
+	margin: 20px;
+}
+
+.form-group {
+	background-color: hsla(232, 47%, 69%, 0.8);
+	border: none;
+	border-radius: 10px;
+	padding: 30px;
+	max-width: 400px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.legend {
+	font-size: 22px;
+	font-weight: bold;
+	color: #000;
+	margin-top: 0px;
+	margin-bottom: 22px;
+}
+
+.label {
+	font-weight: bold;
+	color: #000;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	margin-bottom: 10px;
+}
+
+.form-group-sms {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.input,
+.textarea {
+	background-color: #fff;
+	border: none;
+	border-radius: 10px;
+	padding: 12px;
+	font-size: 16px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family:
+		ink free,
+		sans-serif;
+}
+
+.textarea {
+	resize: vertical;
+	max-height: 400px;
+}
+
+.label_ch {
+	font-weight: bold;
+	gap: 10px;
+	margin-bottom: 25px;
+}
+
+.button {
+	background-color: #000;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	padding: 12px 24px;
+	margin-top: 15px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	font-family:
+		ink free,
+		sans-serif;
+	display: block;
+}
