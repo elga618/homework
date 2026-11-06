@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+	font-family: "Ink Free", sans-serif;
+}
+
+html {
+	font-size: 20px;
+}
+
+.container {
+	width: 70%;
+	padding: 20px 30px;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
+	border-bottom: 1px solid #008080;
+}
+
+.header-logo {
+	display: block;
+	max-width: 80px;
+	max-height: 80px;
+}
+
+.header-menu {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.header-menu li {
+	list-style: none;
+}
+
+.header-link {
+	color: #000;
+}
+.header-phone {
+	color: #000;
+	text-decoration: none;
+}
